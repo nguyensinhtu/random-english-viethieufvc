@@ -24,8 +24,13 @@ function App() {
     }
   };
 
+  const handleClick = (event) => {
+    zenNextData();
+  }
+
   useEffect(() => {
     document.addEventListener("keypress", handleKeyPress, false);
+    document.addEventListener("click", handleClick, true);
     return () => {
       document.removeEventListener("keypress", handleKeyPress, false);
     };
@@ -38,7 +43,7 @@ function App() {
         <br />
         <br />
         <br />
-        <p style={{ fontSize: 12 }}>Press Space</p>
+        <p style={{ fontSize: 12 }}>Press Space or Click</p>
       </header>
     </div>
   );
