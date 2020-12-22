@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import level1 from "./data/level1";
+// import level1 from "./data/level1";
+import level2 from "./data/level2_topic";
 
 function App() {
   const [currentIdx, setCurrentIdx] = useState(0);
