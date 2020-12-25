@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 // import level1 from "./data/level1";
 import level2 from './data/level2_topic';
+import audio from './data/links';
 
 console.log('level2: ', level2)
 
@@ -43,14 +44,19 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h3>{currentIdx + 1} - {level2[currentIdx]['a']}</h3>
+        <h3>{level2[currentIdx]['stt']} - {level2[currentIdx]['q']}</h3>
         <h3>A: {level2[currentIdx]['a']}</h3>
         <h3>YA: {level2[currentIdx]['ya']}</h3>
+        {
+          audio[level2[currentIdx]] && <audio controls allow={'autoplay'}>
+            <source src={audio[level2[currentIdx]['stt']]['qs']} />
+          </audio>
+        }
         <br />
         <br />
         <br />
         <p style={{ fontSize: 12 }}>Press Space or Click</p>
-        <br/>
+        <br />
         <button type="button">Show your answer</button>
       </header>
     </div>
