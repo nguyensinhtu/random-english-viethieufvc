@@ -3,13 +3,13 @@ import logo from "./logo.svg";
 import "./App.css";
 // import level1 from "./data/level1";
 import level2 from './data/level2_topic';
-import audio from './data/links';
+import audio_data from './data/links';
 
 console.log('level2: ', level2)
 
 function App() {
   const [currentIdx, setCurrentIdx] = useState(0);
-  const [ishide] = useState(true);
+  const [isHideAnswer, setIsHideAnswer] = useState(false);
 
   const zenNextData = () => {
     const min = 0;
@@ -41,23 +41,35 @@ function App() {
     };
   }, []);
 
+  console.log(level2[currentIdx]);
+
   return (
     <div className="App">
       <header className="App-header">
         <h3>{level2[currentIdx]['stt']} - {level2[currentIdx]['q']}</h3>
-        <h3>A: {level2[currentIdx]['a']}</h3>
-        <h3>YA: {level2[currentIdx]['ya']}</h3>
-        {
-          audio[level2[currentIdx]] && <audio controls allow={'autoplay'}>
-            <source src={audio[level2[currentIdx]['stt']]['qs']} />
-          </audio>
+        {audio_data[level2[currentIdx]['stt']] &&
+          <div>
+            <audio key={`audio-${currentIdx}`} controls loop autoplay >
+              <source src={audio_data[level2[currentIdx]['stt']]['qs']} />
+            </audio>
+          </div>
         }
+        {isHideAnswer && <h3>A: {level2[currentIdx]['a']}</h3>}
+        {audio_data[level2[currentIdx]['stt']] &&
+          <audio key={`audio-as-${currentIdx}`} controls loop autoplay >
+            <source src={audio_data[level2[currentIdx]['stt']]['as']} />
+          </audio>
+
+
+        }
+        {isHideAnswer && <h3>YA: {level2[currentIdx]['ya']}</h3>}
+
         <br />
         <br />
         <br />
         <p style={{ fontSize: 12 }}>Press Space or Click</p>
         <br />
-        <button type="button">Show your answer</button>
+        <button type="button" onClick={() => { setIsHideAnswer(!isHideAnswer) }}>Show or hide your answer</button>
       </header>
     </div>
   );
