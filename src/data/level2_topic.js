@@ -215,6 +215,30 @@ const data = [
         a: 'I prefer to stand on my feet and be independent.',
         ya: 'Your awnser'
     },
+   {
+       stt: '21.1',
+       q: 'Who is yor best friend?',
+       a: "My best friend's name is Tom. We've known each other other for ten years now. To describe him, I would say he is so understanding and confident. He has a great sense of humor and is always very likely.",
+       ya: "Your answer",
+   } ,
+   {
+       stt: '21.2',
+       q: 'Why do you call this person your best friend?',
+       a: "I call Tom is my best friend because of his unique qualities 'A friend in need is a friend indeed!'. He is really supportive and always willing to help me out when a problem comes up. He is such a caring person. I always treasure his friendship.",
+       ya: "Your answer",
+   },
+   {
+       stt: '21.3',
+       q: "Do you have a lot of friends?",
+       a: "Yes, I have quite a few friends. I have friends from all walks of life. Of couse, some of them are only casual friends like my friend at work, but I also have some close friends.",
+       ya: "your answer",
+   },
+{
+    stt: '21.4',
+    q: "In your free time, would you prefer to be alone or to be with friends?",
+    a: "It depends, sometimes I prefer to be with my friends and sometimes I just want to relax without anyone disturbing me.",
+    ya: "your answer"
+}
 
 ] 
 

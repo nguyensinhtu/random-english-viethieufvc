@@ -30,6 +30,11 @@ function App() {
   };
 
   const handleClick = (event) => {
+    if (event.target.type === 'button'){
+      console.log("is buuton, don't zen target")
+      return;
+    }
+
     zenNextData();
   }
 
@@ -49,21 +54,22 @@ function App() {
         <h3>{level2[currentIdx]['stt']} - {level2[currentIdx]['q']}</h3>
         {audio_data[level2[currentIdx]['stt']] &&
           <div>
-            <audio key={`audio-${currentIdx}`} controls loop autoplay >
-              <source src={audio_data[level2[currentIdx]['stt']]['qs']} />
-            </audio>
+            <iframe id="audio" key={`audio-${currentIdx}`} autoplay allow="autoplay"
+              src={audio_data[level2[currentIdx]['stt']]['qs']}
+            />
           </div>
         }
-        {isHideAnswer && <h3>A: {level2[currentIdx]['a']}</h3>}
-        {audio_data[level2[currentIdx]['stt']] &&
-          <audio key={`audio-as-${currentIdx}`} controls loop autoplay >
-            <source src={audio_data[level2[currentIdx]['stt']]['as']} />
-          </audio>
-
-
+        {isHideAnswer &&
+          <div>
+            <h3>A: {level2[currentIdx]['a']}</h3>
+            {audio_data[level2[currentIdx]['stt']] &&
+              <audio key={`audio-as-${currentIdx}`} controls loop autoplay >
+                <source src={audio_data[level2[currentIdx]['stt']]['as']} />
+              </audio>
+            }
+          </div>
         }
         {isHideAnswer && <h3>YA: {level2[currentIdx]['ya']}</h3>}
-
         <br />
         <br />
         <br />
