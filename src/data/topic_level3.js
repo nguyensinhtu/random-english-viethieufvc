@@ -146,7 +146,80 @@ let data = [
         qs: "Which of the four seasons of the year appeals to you most?",
         a: "I adore the greenness and freshness of spring. I call it the season of blossom. In my opinion, spring is the loveliest",
         ya: ""
+    },
+    {
+        stt: "10.1",
+        qs: "How do you like your university life?",
+        a: "I’ve met wonderful people and I’m really enjoying myself. Going to Ho Chi Minh City University is not just about studying hard and getting a degree; it’s also about developing and maturing as a person and taking advantage of vast number of opportunities",
+        ys: ""
+    },
+    {
+        stt: "10.2",
+        qs: "What do you like most about your university?",
+        a: "I enjoyed many things about my university.It was a new challenge and an opportunity to expand my horizons. The courses were varied and interesting.",
+        ys: ""
+    },
+    {
+        stt: "10.3",
+        qs: "Tell me about your education goals",
+        a: "I want to get my BA in Business English. I believe having a degree at that level will benefit my future career. I look forward to this opportunity to broaden my horizons and build up my skills and confidence",
+        ys: ""
+    },
+    {
+        stt: "11.1",
+        q: "Do you still remember you school days?",
+        a: "Huh,The carefree days. What I mean is that I had no worries. I was only expected to get good grades.",
+        ys: ""
+    },
+    {
+        stt: "11.2",
+        q: "What method of learning works best for you?",
+        a: "Well, I have well-established study habits. I almost always start promptly at seven in the evening. I study for two hours, then have a ten-minute break, then I study for another two hours.I follow this approach during the weekdays . But over the weekend I usually spend more hours studying. I don’t think cramming the night before the exam can ever help",
+        ys: ""
+    },
+    {
+        stt: "11.3",
+        q: "Are there any private universities in your country?",
+        a: "Yes there are. In addition to the public system, my country has a private system of higher education",
+        ys: ""
+    },
+    {
+        stt: "13.1",
+        q: "Tell me about the educational system in your country",
+        a: "In the past two decades, the education system of my country has been reformed several times. Primary education is free from the age of six. Although private schools do exist and are permitted to charge tuition fees. The education system is comprised of 5 years of primary, 4 years of lower high school, and 3 years of high school",
+        ys: ""
+    },
+    {
+        stt: "13.2",
+        q: "How are students evaluated in your country?",
+        a: "It’s mostly based on written exams, Of course, there are other criteria which are usually considered by teachers as well, such as oral exam and class participation",
+        ys: ""
+    },
+    {
+        stt: "14.1",
+        q: "Which languages do you like most?",
+        a: "I like english, It's the most widespread language in the world today, though not the most widely used language. English is an international language and used by journalists across the world. Most news broadcasts are in English and so It’s important to many to learn to speak and understand English",
+        ys: ""
+    },
+    {
+        stt: "14.2",
+        q: "What do you do to improve your English?",
+        a: "To learn more natural English. I practice English with a native English speaker",
+        ys: ""
+    },
+    {
+        stt: "14.3",
+        q: "How often do you speak or use English?",
+        a: "On a regular basis, when reading English newspapers, listening to English news and speaking to friends via the internet",
+        ys: ""
+    },
+    {
+        stt: "14.4",
+        q: "Why are you trying to improve your English?",
+        a: "The fact is that English is known as an international language and consider as a necessary requirement for education and employment opportunities",
+        ys: ""
     }
+
 
 ]
 
