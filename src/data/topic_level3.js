@@ -218,8 +218,139 @@ let data = [
         qs: "Why are you trying to improve your English?",
         a: "The fact is that English is known as an international language and consider as a necessary requirement for education and employment opportunities",
         ys: ""
+    },
+    {
+        stt: "16.1",
+        qs: "What is your weakness at work?",
+        a: "I certainly admit that I’m not perfect. I occasionally feel impatient with inefficiencies and colleagues who don’t work as quickly as I do. Of course, I try not to let it affect my work performance",
+        ys: ""
+    },
+    {
+        stt: "16.2",
+        qs: "What is your occupational goal for the feature?",
+        a: "I have a solid plan for my career. I am looking for additional responsibility and more room for growth. I want to upgrade my qualifications. In fact, I’ll do anything to further my career. Maybe I’m too ambitious!",
+        ys: ""
+    },
+    {
+        stt: "16.3",
+        qs: "If you could start again, what career decisions would you make differently?",
+        a: "In fact, I'm not the kind of person who looks back with regrets. I prefer to invest my energy looking forward. However, if I could do that, I would probably choose a career in business management.",
+        ys: ""
+    },
+    {
+        stt: "17.1",
+        qs: "How would you describe your boss?",
+        a: "I would say my boss is very level headed, well rounded, and inspiring. Marry was one of the most colorful characters that I've ever met",
+        ys: ""
+    },
+    {
+        stt: "17.2",
+        qs: "How do you think your colleagues would describe you?",
+        a: "They might describe me as someone who cares about them personally and professionally with high moral standings",
+        ys: ""
+    },
+    {
+        stt: "17.3",
+        qs: "How do you think your boss would describe you?",
+        a: "My boss would say that I have a strong sense for the marketplace, Also that I have a strong ability for learning new languages",
+        ys: ""
+    },
+    {
+        stt: "17.4",
+        qs: "Do you work bet by yourself or as part of a team?",
+        a: "I prefer to work alone, but I find that the best decisions are made with those who work for themselves and the group. However, I'd be happy to work alone when required",
+        ys: ""
+    },
+    {
+        stt: "19.1",
+        qs: "What sort of people do you effectively work with?",
+        a: "I work well with people who are understanding and helpful",
+        ys: ""
+    },
+    {
+        stt: "19.2",
+        qs: "Which do you perceive as your greatest strengths",
+        a: "My greatest strengths are that I'm very loyal and dedicated",
+        ys: ""
+    },
+    {
+        stt: "19.3",
+        qs: "Describe your overall weakness",
+        a: "Well, I'm a bit of a perfectionist and sometimes focus too much on details. Now, I've come to recognize this problem, and I'm taking to steps to correct it",
+        ys: ""
+    },
+    {
+        stt: "19.4",
+        qs: "How would your friends describe you?",
+        a: "They would probably say I am easy-going and athletic",
+        ys: ""
+    },
+    {
+        stt: "19.5",
+        qs: "Which three words describe you best?",
+        a: "I would say 'creative', 'sensitive', and 'shy'",
+        ys: ""
+    },
+    {
+        stt: "19.6",
+        qs: "Do you have a motto?",
+        a: "Actions speak louder than words",
+        ys: ""
+    },
+    {
+        stt: "19.7",
+        qs: "What kind of person would you find most admirable?",
+        a: "I admire people who are honest and say what's on their mind",
+        ys: ""
+    },
+    {
+        stt: "20.1",
+        qs: "Would you consider yourself a team player?",
+        a: "I would consider myself as a good team player, I've had opportunities in both academic and athletic fields and I've experienced the value of working in teams",
+        ys: ""
+    },
+    {
+        stt: "20.2",
+        qs: "How well do you think you respond to criticism?",
+        a: "I believe I respond very well to criticism. Especially if it's constructive. I'm a very humble person.",
+        ys: ""
+    },
+    {
+        stt: "20.3",
+        qs: "What typically stresses you out?",
+        a: "Family problems and excessive expectations typically stress me out. I usually speak with my older brother when I'm stressed.",
+        ys: ""
+    },
+    {
+        stt: "20.4",
+        qs: "How do you usually go about solving problems?",
+        a: "When I need to solve a problem, I brainstorm and then I decide how to deal with the problem from there",
+        ys: ""
+    },
+    {
+        stt: "22.1",
+        qs: "What is your favorite food? Tell me about its main ingredients",
+        a: "I love noodles with soup and beef so it's a close call between Bun Bo Hue and Pho Bo for me. So far, Bun Bo Hue is my favorite. But I heard that Saigon's version is something worth trying",
+        ys: ""
+    },
+    {
+        stt: "22.2",
+        qs: "Can you cook",
+        a: "Actually, I took a cooking class just three weeks ago. I cook almost every day. I enjoy trying new recipes.",
+        ys: ""
+    },
+    {
+        stt: "22.3",
+        qs: "How often do you eat out?",
+        a: "I eat out only on the weekends when I don't feel like cooking",
+        ys: ""
+    },
+    {
+        stt: "22.4",
+        qs: "Where do you usually eat out?",
+        a: "To dine, I usually go to the Green Sea restaurant. It's a small restaurant with a homey atmosphere. It serves a wide variety of ethnic cuisine. I prefer sit-down restaurants to fast-food restaurants",
+        ys: ""
     }
-
 
 ]
 
