@@ -10,7 +10,7 @@ import topicAudioData from './data/topic_links'
 function App() {
   const [currentIdx, setCurrentIdx] = useState(0);
   const [isHideAnswer, setIsHideAnswer] = useState(false);
-  const [showListening, setShowListening] = useState(true);
+  const [showListening, setShowListening] = useState(false);
   const [randomMissing, setRandomMissing] = useState(false);
 
   const zenNextData = (data) => {
